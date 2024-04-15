@@ -160,7 +160,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 // html += `<p>Emotion: ${emotion}</p>`;
                 html += `<p>Radiates joy like a sunbeam.</p>`;
             }
-             $(resultsDiv).html(html);
+            html+='</div>';
+            $(resultsDiv).html(html);
             console.log(results[0].emotion);
 
         }

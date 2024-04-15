@@ -72,7 +72,7 @@ border: 1px solid black;
 }
 
 #results {
-    margin-top: 20px;
+    margin-top: -20px;
     font-weight: bold;
 }
 .container{
@@ -93,6 +93,7 @@ tbody td{
 	border: 1px solid black;
 
 }
+
 p{
 	font-size: 25px;
 	font-family: 'Times New Roman',serif;
