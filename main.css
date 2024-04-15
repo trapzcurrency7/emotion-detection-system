@@ -1,0 +1,113 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+	body{
+		 background-color: skyblue!important;
+	}
+  .background {
+    		position: absolute; 
+            height: 100%; 
+            width: 100%; 
+            background-color: skyblue;
+            background-size: cover; 
+            background-position: center; 
+            filter: blur(5px); 
+            z-index: -1; 
+  }
+  .heightAuto{
+  	height: 100%!important;
+  }
+  .hideShow{
+  	display: none!important;
+  }
+  h1{
+  	padding-right: 5px;
+  	padding-left: 5px;
+  	padding-bottom: 2px;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .background { 
+
+            position: absolute; 
+            height: 100%; 
+            width: 100%; 
+            background-image: url("bg1.jpg"); 
+            background-size: cover; 
+            background-position: center; 
+            filter: blur(5px); 
+            z-index: -1; 
+        } 
+    .hideShow{
+    	display: block;
+    }
+}
+
+button{
+	border: 0.001rem solid black;
+	border-radius: 10px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+#submit{
+	border-radius: 10px;
+	font-weight: 500;
+}
+#imageInput{
+/*	background-color: transparent;*/
+border: 1px solid black;
+}
+#imageInput:before{
+	background-color: red;
+}
+
+#results {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.container{
+	background-color: transparent;
+}
+
+#thead{
+	border: 1px solid black;
+}
+#thead th{
+	border: 1px solid black;
+}
+
+tbody{
+	height: 450px;
+}
+tbody td{
+	border: 1px solid black;
+
+}
+p{
+	font-size: 25px;
+	font-family: 'Times New Roman',serif;
+	color: white;
+}
+#loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 102px;
+  height: 102px;
+  mix-blend-mode: multiply;
+  margin: -16px 0 0 -16px;
+  z-index: 100;
+  }
+
+
